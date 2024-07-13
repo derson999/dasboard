@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+h3{
+ font-family: Arial, Helvetica, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mother{
+font-size: large;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mother h3{
+  font-size:16px;
+  padding: 4px;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.texte{
+  color: rgba(7, 7, 63, 0.644);
+  font-size: 15px;
+
+}
+
+.header{
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+}
+
+
+.app{
+  display:flexbox;
+  padding: 15px;
+}
+
+.icon{
+  float: right;
+  margin-right: 35px;
+  margin-top: -90px;
+}
+
+.cards{
+  float: left;
+  display: flex;
+  align-items: center; 
+  height: 350px;
+  background-color: white;
+  width: 580px;
+  margin-left: 15px;
+  border-radius: 10px;
+  margin-top: 25px;
+  justify-items: center;
+  justify-content: space-between;
+}
+
+.forms{
+  float: right;
+  align-items: center; 
+  height:100px;
+  background-color: white;
+  width: 100px;
+  border-radius: 5px;
+  margin-right: 35px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.forms1{
+  float: right;
+  align-items: center; 
+  height:100px;
+  background-color: white;
+  width: 100px;
+  margin-right: 15px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.forms2{
+  float: right;
+  align-items: center; 
+  height:100px;
+  background-color: white;
+  width: 100px;
+  margin-right: 15px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
 }
+
+.but{
+  position: absolute;
+  margin-left: 55%;
+}
+
+.nuage2{
+  margin-bottom: 5px;
+}
+
+.choices{
+  margin-left: 15px;
+}
+
+.cards1{
+  float: left;
+  margin-top: 150px;
+
+}
+
+
